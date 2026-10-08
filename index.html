@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Gallery</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="header">
+        <h1>Featured Products</h1>
+        <button id="theme-toggle" class="theme-btn" aria-label="Toggle Theme">
+            <span class="icon">🌙</span>
+        </button>
+    </header>
+
+    <main class="gallery-container">
+        <!-- Card 1 -->
+        <article class="card">
+            <div class="card-image-wrapper">
+                <img src="https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=500&q=80" alt="Wireless Headphones">
+                <span class="badge">Best Seller</span>
+            </div>
+            <div class="card-content">
+                <h2 class="product-title">Pro Headphones</h2>
+                <p class="product-description">Immersive audio experience with active noise cancellation and 30-hour battery life.</p>
+                <div class="card-footer">
+                    <span class="price">$199.99</span>
+                    <button class="buy-btn">Add to Cart</button>
+                </div>
+            </div>
+        </article>
+
+        <!-- Card 2 -->
+        <article class="card">
+            <div class="card-image-wrapper">
+                <img src="https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=500&q=80" alt="Minimalist Watch">
+                <span class="badge">New</span>
+            </div>
+            <div class="card-content">
+                <h2 class="product-title">Minimalist Watch</h2>
+                <p class="product-description">Elegantly crafted timepiece featuring a genuine leather strap and sapphire glass.</p>
+                <div class="card-footer">
+                    <span class="price">$149.50</span>
+                    <button class="buy-btn">Add to Cart</button>
+                </div>
+            </div>
+        </article>
+
+        <!-- Card 3 -->
+        <article class="card">
+            <div class="card-image-wrapper">
+                <img src="https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=500&q=80" alt="Sneakers">
+            </div>
+            <div class="card-content">
+                <h2 class="product-title">Urban Sneakers</h2>
+                <p class="product-description">Lightweight design engineered for maximum daily comfort and modern streetwear style.</p>
+                <div class="card-footer">
+                    <span class="price">$110.00</span>
+                    <button class="buy-btn">Add to Cart</button>
+                </div>
+            </div>
+        </article>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
